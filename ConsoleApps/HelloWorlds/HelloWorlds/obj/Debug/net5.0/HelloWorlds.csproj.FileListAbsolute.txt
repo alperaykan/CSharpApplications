@@ -1,0 +1,16 @@
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.deps.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.runtimeconfig.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.runtimeconfig.dev.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\bin\Debug\net5.0\HelloWorlds.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.csproj.AssemblyReference.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.AssemblyInfoInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.AssemblyInfo.cs
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\refint\HelloWorlds.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\HelloWorlds.genruntimeconfig.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\HelloWorlds\HelloWorlds\obj\Debug\net5.0\ref\HelloWorlds.dll
