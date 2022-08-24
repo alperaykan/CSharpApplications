@@ -116,46 +116,70 @@ namespace HelloWorlds
 
             #endregion
 
-            #region
+            #region AuthControlAlıştırması
 
-            string kullaniciAdi = "Pappagu";
-            string eMail = "alperaykan@gmail.com";
-            string password = "123456";
+            //string kullaniciAdi = "Pappagu";
+            //string eMail = "alperaykan@gmail.com";
+            //string password = "123456";
 
-            Console.WriteLine("Kullanıcı adınız?");
-            string kullaniciAdiGiris = Console.ReadLine();
-            bool controlKullanici = (kullaniciAdi == kullaniciAdiGiris);
-            if (controlKullanici)
-            {
-                Console.WriteLine("Email Adresiniz?");
-                string eMailGiris = Console.ReadLine();
-                bool controlEmail = (eMail == eMailGiris);
-                if (controlEmail)
-                {
-                    Console.WriteLine("Şifreniz?");
-                    string passwordGiris = Console.ReadLine();
-                    bool controlPassword = (password == passwordGiris);
-                    if (controlPassword)
-                    {
-                        Console.WriteLine("Tebrikler. Giriş Başarılı !!!!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Şifreniz yanlış");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Emailiniz yanlış");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Kullanıcı Adınız yanlış");
-            }
+            //Console.WriteLine("Kullanıcı adınız?");
+            //string kullaniciAdiGiris = Console.ReadLine();
+            //bool controlKullanici = (kullaniciAdi == kullaniciAdiGiris);
+            //if (controlKullanici)
+            //{
+            //    Console.WriteLine("Email Adresiniz?");
+            //    string eMailGiris = Console.ReadLine();
+            //    bool controlEmail = (eMail == eMailGiris);
+            //    if (controlEmail)
+            //    {
+            //        Console.WriteLine("Şifreniz?");
+            //        string passwordGiris = Console.ReadLine();
+            //        bool controlPassword = (password == passwordGiris);
+            //        if (controlPassword)
+            //        {
+            //            Console.WriteLine("Tebrikler. Giriş Başarılı !!!!");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Şifreniz yanlış");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Emailiniz yanlış");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Kullanıcı Adınız yanlış");
+            //}
 
             #endregion
 
+            #region TipDönüşümleri
+
+            //int number = 10;
+
+            //string stringNumber = number.ToString();
+
+            //// Burada string i number a dönüştürmek için 2 yöntem var biri parse diğeri Convert
+
+            ////int number2 = int.Parse(stringNumber);
+
+            //// Burada dikkat edilmesi gereken yer parse yaparken string içindeki değerin bir int olması yoksa exception atar!
+
+     
+
+            //// Diğer yöntem olan Convert ün birçok değiştirme seçeneği mevcut bunlar;
+            //// Convert.ToInt16 => short tipine dönüştürüyor
+            //// Convert.ToInt32 => int tipine dönüştürüyor
+            //// Convert.ToInt64 => float tipine dönüştürüyor
+
+            //int number2 = Convert.ToInt32(stringNumber);
+
+
+            //Console.WriteLine(number2 * 2);
+            #endregion
         }
     }
 }
