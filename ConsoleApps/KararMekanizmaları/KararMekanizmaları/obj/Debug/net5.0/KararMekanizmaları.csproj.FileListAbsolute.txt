@@ -1,0 +1,16 @@
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.deps.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.runtimeconfig.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.runtimeconfig.dev.json
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\bin\Debug\net5.0\KararMekanizmaları.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.csproj.AssemblyReference.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.AssemblyInfoInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.AssemblyInfo.cs
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\refint\KararMekanizmaları.dll
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\KararMekanizmaları.genruntimeconfig.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\ConsoleApps\KararMekanizmaları\KararMekanizmaları\obj\Debug\net5.0\ref\KararMekanizmaları.dll
