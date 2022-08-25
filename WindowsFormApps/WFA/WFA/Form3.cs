@@ -16,11 +16,15 @@ namespace WFA
         {
             InitializeComponent();
         }
-
+        int number = 0;
         private void btnClick_Click(object sender, EventArgs e)
         {
-            int number = 0;
             MessageBox.Show((++number).ToString());
+        }
+
+        private void btnClick2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show((--number).ToString());
         }
     }
 }
