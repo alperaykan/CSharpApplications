@@ -1,0 +1,13 @@
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\bin\Debug\WFA.exe.config
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\bin\Debug\WFA.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\bin\Debug\WFA.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.csproj.AssemblyReference.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.csproj.SuggestedBindingRedirects.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Form1.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Properties.Resources.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.csproj.GenerateResource.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Form2.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Form3.resources
