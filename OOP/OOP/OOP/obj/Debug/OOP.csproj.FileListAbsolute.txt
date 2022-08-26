@@ -1,0 +1,12 @@
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\bin\Debug\OOP.exe.config
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\bin\Debug\OOP.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\bin\Debug\OOP.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.csproj.SuggestedBindingRedirects.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.Form1.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.Properties.Resources.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.csproj.GenerateResource.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.exe
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.pdb
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\OOP\OOP\OOP\obj\Debug\OOP.Models.KurtAdamSaldırısı.resources
