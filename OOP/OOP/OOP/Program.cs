@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WFA
+namespace OOP
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace WFA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Methodlar());
+            Application.Run(new Form1());
         }
     }
 }

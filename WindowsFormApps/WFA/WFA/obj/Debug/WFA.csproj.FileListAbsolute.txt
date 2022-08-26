@@ -11,3 +11,5 @@ C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA
 C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.pdb
 C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Form2.resources
 C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Form3.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Methodlar.resources
+C:\Users\FIRAT AYKAN\Documents\GitHub\CSharpApplications\WindowsFormApps\WFA\WFA\obj\Debug\WFA.Sabitler.resources
