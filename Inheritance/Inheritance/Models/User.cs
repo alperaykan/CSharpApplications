@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Models
 {
-    public class User
+    public abstract class User
     {
 
         public User(string _userName, string _password)
