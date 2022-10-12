@@ -8,7 +8,17 @@ namespace Inheritance.Models
 {
     public class Student : User
     {
-        public string classRoom { get; set; }
+        //public Student(int _okulNo)
+        //{
+        //    okulNo = _okulNo;
+        //}
+
+        public Student(int _okulNo, string _userName, string _password) : base(_userName, _password)
+        {
+            okulNo = _okulNo;
+        }
+
+        public Classroom classroom { get; set; }
         public int okulNo { get; set; }
 
 

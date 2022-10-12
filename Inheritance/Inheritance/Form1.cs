@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inheritance.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,19 @@ namespace Inheritance
         public Form1()
         {
             InitializeComponent();
+        }
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Classroom classroom = new Classroom();
+            classroom.seviye = 1;
+            classroom.sube = "B";
+            Student student = new Student(38, "alpoo", "12345");
+            student.classroom = classroom;
+            student.GetFullName();
+            student.classroom.SınıfTamAd();
+
         }
     }
 }

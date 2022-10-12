@@ -8,7 +8,12 @@ namespace Inheritance.Models
 {
     class Teacher : User
     {
-        public string[] classRooms { get; set; }
+        public Teacher(string _branch, string _userName, string _password) : base(_userName, _password)
+        {
+            branch = _branch;
+        }
+
+        public List<Classroom> classrooms { get; set; }
         public string branch { get; set; }
 
         public void GiveHomework()

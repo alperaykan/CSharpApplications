@@ -8,6 +8,13 @@ namespace Inheritance.Models
 {
     public class User
     {
+
+        public User(string _userName, string _password)
+        {
+            userName = _userName;
+            password = _password;
+        }
+
         public string userName { get; set; }
         public string password { get; set; }
         public string name { get; set; }
