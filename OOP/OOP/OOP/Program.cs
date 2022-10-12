@@ -17,7 +17,7 @@ namespace OOP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new KurtAdamSaldırısı());
+            Application.Run(new Constructor());
         }
     }
 }
