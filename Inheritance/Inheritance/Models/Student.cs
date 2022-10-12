@@ -20,7 +20,8 @@ namespace Inheritance.Models
 
         public Classroom classroom { get; set; }
         public int okulNo { get; set; }
-
+        public Teacher[] teachers { get; set; }
+        public Ders[] dersler { get; set; }
 
         public void DoHomework()
         {

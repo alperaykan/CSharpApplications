@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance.Models
 {
-    class Teacher : User
+    public class Teacher : User
     {
         public Teacher(string _branch, string _userName, string _password) : base(_userName, _password)
         {

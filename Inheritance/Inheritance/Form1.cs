@@ -24,8 +24,14 @@ namespace Inheritance
             Classroom classroom = new Classroom();
             classroom.seviye = 1;
             classroom.sube = "B";
+
+            Teacher teacher = new Teacher("matematik", "Ahmet" , "1245666");
+            
             Student student = new Student(38, "alpoo", "12345");
+            
             student.classroom = classroom;
+            student.teachers[0] = teacher;
+            
             student.GetFullName();
             student.classroom.SınıfTamAd();
 
