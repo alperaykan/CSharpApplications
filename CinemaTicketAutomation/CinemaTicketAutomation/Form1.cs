@@ -20,15 +20,14 @@ namespace CinemaTicketAutomation
         }
 
         List<Movie> movies;
-        public void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load_1(object sender, EventArgs e)
         {
             movies = Helper.CreateMovies();
             FotolariGetir();
         }
-
-        public void FotolariGetir()
+        private void FotolariGetir()
         {
-            Size pictureSize = new Size(300, 100);
+            Size pictureSize = new Size(300, 180);
             Size buttonSize = new Size(90, 40);
             int x = 50;
             int y = 100;
@@ -42,7 +41,19 @@ namespace CinemaTicketAutomation
                 picture.Image = Image.FromFile(movies[i].picturePath);
                 picture.SizeMode = PictureBoxSizeMode.StretchImage;
                 this.Controls.Add(picture);
-
+                int buttonX = x;
+                int buttonY = picture.Bottom + 10;
+                for (int index = 0; index < 3; index++)
+                {
+                    Button button = new Button();
+                    button.Text = movies[i].sessions[index].time;
+                    button.Location = new Point(buttonX, buttonY);
+                    button.Size = new Size(90, 40);
+                    button.Tag = i;
+                    button.Click += new EventHandler(button_Click);
+                    this.Controls.Add(button);
+                    buttonX += 100;
+                }
                 if (1200 > x + xIncrement + picture.Width)
                 {
                     x += xIncrement;
@@ -53,6 +64,11 @@ namespace CinemaTicketAutomation
                     y += yIncrement;
                 }
             }
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
