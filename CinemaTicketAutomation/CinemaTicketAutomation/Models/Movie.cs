@@ -15,7 +15,7 @@ namespace CinemaTicketAutomation.Models
         }
 
         public string picturePath { get; set; }
-        public int minute { get; set; }
+        public string minute { get; set; }
         public decimal price { get; set; }
         public Category category { get; set; }
         public List<Session> sessions { get; set; }
@@ -34,7 +34,9 @@ namespace CinemaTicketAutomation.Models
                     session.date = currentDate.ToShortDateString();
                     session.time = currentDate.ToShortTimeString();
                     sessions.Add(session);
+                    currentDate = currentDate.AddHours(3);
                 }
+                currentDate = currentDate.AddDays(1);
             }
             
         }

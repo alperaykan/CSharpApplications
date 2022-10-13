@@ -1,0 +1,11 @@
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\bin\Debug\CinemaTicketAutomation.exe.config
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\bin\Debug\CinemaTicketAutomation.exe
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\bin\Debug\CinemaTicketAutomation.pdb
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.csproj.AssemblyReference.cache
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.csproj.SuggestedBindingRedirects.cache
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.Form1.resources
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.Properties.Resources.resources
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.csproj.GenerateResource.cache
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.csproj.CoreCompileInputs.cache
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.exe
+C:\Users\falid\Desktop\CsApps\CinemaTicketAutomation\CinemaTicketAutomation\obj\Debug\CinemaTicketAutomation.pdb
