@@ -12,6 +12,7 @@ namespace CinemaTicketAutomation.Models
         {
             SetDefaultChairs();
         }
+
         public string date { get; set; }
         public string time { get; set; }
         public List<Chair> chairs { get; set; }

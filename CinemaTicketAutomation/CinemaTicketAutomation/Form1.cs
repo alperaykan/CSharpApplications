@@ -20,12 +20,12 @@ namespace CinemaTicketAutomation
         }
 
         List<Movie> movies;
-        private void Form1_Load_1(object sender, EventArgs e)
+        private void Form1_load_1(object sender, EventArgs e)
         {
             movies = Helper.CreateMovies();
-            FotolariGetir();
+            FotolariVeSeanslariGetir();
         }
-        private void FotolariGetir()
+        private void FotolariVeSeanslariGetir()
         {
             Size pictureSize = new Size(300, 180);
             Size buttonSize = new Size(90, 40);
@@ -68,7 +68,7 @@ namespace CinemaTicketAutomation
 
         private void button_Click(object sender, EventArgs e)
         {
-
+             
         }
     }
 }
