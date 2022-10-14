@@ -82,5 +82,38 @@ namespace CinemaTicketAutomation
                 button.BackColor = Color.LightGreen;
             }
         }
+
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+            if(chairs.Count == 0)
+            {
+                MessageBox.Show("Lütfen en az 1 koltuk seçiniz ve tekrar deneyiniz.");
+                return;
+            }
+
+            Sales sales = new Sales();
+            sales.movieName = selectedMovie.movieName;
+            sales.count = chairs.Count;
+            sales.sessionTime = $"{selectedSession.date} - {selectedSession.time}";
+            sales.totalPrice = TotalPriceHesapla();
+        }
+
+        private decimal TotalPriceHesapla()
+        {
+            decimal price = selectedMovie.price * chairs.Count;
+            if (radioSmall.Checked)
+            {
+                price += 10;
+            }
+            else if (radioMedium.Checked)
+            {
+                price += 20;
+            }
+            else if (radioLarge.Checked)
+            {
+                price += 30;
+            }
+            return price;
+        }
     }
 }

@@ -71,8 +71,8 @@ namespace CinemaTicketAutomation
             this.lblMinute = new System.Windows.Forms.Label();
             this.lblCategory = new System.Windows.Forms.Label();
             this.lblPrice = new System.Windows.Forms.Label();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.btnBuy = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.gbSalon.SuspendLayout();
             this.gbMısır.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSelectedPicture)).BeginInit();
@@ -547,31 +547,32 @@ namespace CinemaTicketAutomation
             this.lblPrice.Size = new System.Drawing.Size(0, 24);
             this.lblPrice.TabIndex = 4;
             // 
-            // button25
+            // btnBuy
             // 
-            this.button25.Location = new System.Drawing.Point(812, 473);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(240, 46);
-            this.button25.TabIndex = 5;
-            this.button25.Text = "Satın Al";
-            this.button25.UseVisualStyleBackColor = true;
+            this.btnBuy.Location = new System.Drawing.Point(812, 473);
+            this.btnBuy.Name = "btnBuy";
+            this.btnBuy.Size = new System.Drawing.Size(240, 46);
+            this.btnBuy.TabIndex = 5;
+            this.btnBuy.Text = "Satın Al";
+            this.btnBuy.UseVisualStyleBackColor = true;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
-            // button26
+            // btnCancel
             // 
-            this.button26.Location = new System.Drawing.Point(812, 560);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(240, 46);
-            this.button26.TabIndex = 5;
-            this.button26.Text = "İptal Et";
-            this.button26.UseVisualStyleBackColor = true;
+            this.btnCancel.Location = new System.Drawing.Point(812, 560);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(240, 46);
+            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Text = "İptal Et";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 681);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button25);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnBuy);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lblCategory);
@@ -639,7 +640,7 @@ namespace CinemaTicketAutomation
         private System.Windows.Forms.Label lblMinute;
         private System.Windows.Forms.Label lblCategory;
         private System.Windows.Forms.Label lblPrice;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button btnBuy;
+        private System.Windows.Forms.Button btnCancel;
     }
 }
