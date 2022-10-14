@@ -30,6 +30,7 @@ namespace CinemaTicketAutomation
             movies = Helper.CreateMovies();
             FotolariVeSeanslariGetir();
             form2 = new Form2(movies, this);
+            //btnPrev.Enabled = false;
         }
         private void FotolariVeSeanslariGetir()
         {
@@ -78,9 +79,35 @@ namespace CinemaTicketAutomation
             int movieIndex = Convert.ToInt32(button.Tag);
             string sessionTime = button.Text;
             string sessionDate = lblDate.Text;
+            if (DateTime.Parse($"{sessionDate} {sessionTime}") < DateTime.Now)
+            {
+                MessageBox.Show("Seçilen seansı kaçırdınız. Başka seans seçebilirsiniz.");
+                return;
+            }
             this.Hide();
             form2.Show();
             form2.ListDetail(movieIndex, sessionTime, sessionDate);
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            useDate = useDate.AddDays(1);
+            lblDate.Text = useDate.ToShortDateString();
+            btnPrev.Enabled = true;
+            if(currentDate.AddDays(2) == useDate)
+            {
+                btnNext.Enabled = false;
+            }
+        }
+
+        private void btnPrev_Click(object sender, EventArgs e)
+        {
+            useDate = useDate.AddDays(-1);
+            lblDate.Text = useDate.ToShortDateString();
+            if(currentDate == useDate)
+            {
+                btnPrev.Enabled = false;
+            }
         }
     }
 }

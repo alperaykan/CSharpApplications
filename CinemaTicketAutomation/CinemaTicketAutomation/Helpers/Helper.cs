@@ -17,7 +17,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Ebenin Avı",
-                    category = Enums.Category.gerilim,
+                    category = Enums.Category.Gerilim,
                     minute = "2 saat",
                     price = 50,
                     picturePath = basePath + "ebeninavi.jpg"
@@ -25,7 +25,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Güzel Şoför",
-                    category = Enums.Category.komedi,
+                    category = Enums.Category.Komedi,
                     minute = "1 saat 38 dakika",
                     price = 45,
                     picturePath = basePath + "guzelsofor.jpg"
@@ -33,7 +33,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Savaşın Lordu",
-                    category = Enums.Category.aksiyon,
+                    category = Enums.Category.Aksiyon,
                     minute = "2 saat 38 dakika",
                     price = 60,
                     picturePath = basePath + "lordofwar.jpg"
@@ -41,7 +41,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Sherlock Holmes",
-                    category = Enums.Category.macera,
+                    category = Enums.Category.Macera,
                     minute = "2 saat 18 dakika",
                     price = 55,
                     picturePath = basePath + "sherlockholmes.jpg"
@@ -49,7 +49,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Thor",
-                    category = Enums.Category.fantastik,
+                    category = Enums.Category.Fantastik,
                     minute = "2 saat 48 dakika",
                     price = 75,
                     picturePath = basePath + "thor.jpg"
@@ -57,7 +57,7 @@ namespace CinemaTicketAutomation.Helpers
                 new Movie()
                 {
                     movieName = "Uzay Yolcuları",
-                    category = Enums.Category.bilimkurgu,
+                    category = Enums.Category.Bilimkurgu,
                     minute = "2 saat 30 dakika",
                     price = 80,
                     picturePath = basePath + "uzayyolcuları.jpg"

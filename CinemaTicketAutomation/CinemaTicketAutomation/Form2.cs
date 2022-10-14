@@ -32,9 +32,55 @@ namespace CinemaTicketAutomation
             lblTime.Text = $"{sessionDate} - {sessionTime}";
             lblMinute.Text = selectedMovie.minute;
             lblCategory.Text = selectedMovie.category.ToString();
-            lblPrice.Text = selectedMovie.price.ToString();
-            pictureBoxSelectedPicture.Image = Image.FromFile(selectedMovie.picturePath); 
+            lblPrice.Text = selectedMovie.price.ToString() + "TL";
+            pictureBoxSelectedPicture.Image = Image.FromFile(selectedMovie.picturePath);
+            CheckChairStatus();
+        }
 
+        private void CheckChairStatus()
+        {
+            foreach(Control item in gbSalon.Controls)
+            {
+                if(item is Button)
+                {
+                    string row = item.Tag.ToString();
+                    string number = item.Text;
+                    item.Enabled = true;
+                    foreach(Chair chair in selectedSession.chairs)
+                    {
+                        if(chair.row == row && chair.number == number)
+                        {
+                            if (chair.status)
+                            {
+                                item.BackColor = Color.DarkRed;
+                            }
+                            else
+                            {
+                                item.BackColor = Color.LightGreen;
+                            }
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        List<Chair> chairs = new List<Chair>();
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            string row = button.Tag.ToString();
+            string number = button.Text;
+            Chair chair = selectedSession.chairs.Find(c => c.row == row && c.number == number);
+            if(button.BackColor.Name != "Blue")
+            {
+                chairs.Add(chair);
+                button.BackColor = Color.Blue;
+            }
+            else
+            {
+                chairs.Remove(chair);
+                button.BackColor = Color.LightGreen;
+            }
         }
     }
 }

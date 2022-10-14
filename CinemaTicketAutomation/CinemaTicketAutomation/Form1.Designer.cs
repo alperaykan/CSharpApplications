@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.lblDate = new System.Windows.Forms.Label();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPrev = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblDate
@@ -39,11 +41,33 @@
             this.lblDate.Size = new System.Drawing.Size(0, 24);
             this.lblDate.TabIndex = 0;
             // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(932, 31);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(165, 32);
+            this.btnNext.TabIndex = 1;
+            this.btnNext.Text = "Sonraki Gün =>";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
+            // btnPrev
+            // 
+            this.btnPrev.Location = new System.Drawing.Point(68, 31);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(175, 32);
+            this.btnPrev.TabIndex = 1;
+            this.btnPrev.Text = "<= Önceki Gün";
+            this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.Controls.Add(this.btnPrev);
+            this.Controls.Add(this.btnNext);
             this.Controls.Add(this.lblDate);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -58,6 +82,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnPrev;
     }
 }
 
