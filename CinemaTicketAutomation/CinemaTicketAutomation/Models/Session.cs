@@ -32,5 +32,10 @@ namespace CinemaTicketAutomation.Models
                 }
             }
         }
+
+        internal Session FirstOrDefaultAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
