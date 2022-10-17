@@ -96,6 +96,12 @@ namespace CinemaTicketAutomation
             sales.count = chairs.Count;
             sales.sessionTime = $"{selectedSession.date} - {selectedSession.time}";
             sales.totalPrice = TotalPriceHesapla();
+            foreach(Chair chair in chairs)
+            {
+                chair.status = true;
+            }
+            MessageBox.Show(sales.ToString()); 
+            ChangePage();
         }
 
         private decimal TotalPriceHesapla()
@@ -114,6 +120,19 @@ namespace CinemaTicketAutomation
                 price += 30;
             }
             return price;
+        }
+
+        private void ChangePage()
+        {
+            radioSmall.Checked = radioMedium.Checked = radioLarge.Checked = false;
+            chairs.Clear();
+            this.Hide();
+            form1.Show();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            ChangePage();
         }
     }
 }

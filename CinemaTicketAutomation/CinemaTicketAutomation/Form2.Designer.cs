@@ -565,6 +565,7 @@ namespace CinemaTicketAutomation
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "İptal Et";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // Form2
             // 
@@ -586,7 +587,7 @@ namespace CinemaTicketAutomation
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Seans İçi";
             this.gbSalon.ResumeLayout(false);
             this.gbMısır.ResumeLayout(false);
             this.gbMısır.PerformLayout();
